@@ -16,9 +16,22 @@
 		F35004532E2BFE8D004A58AD /* luxury-team-test-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "luxury-team-test-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F35004682E2BFE8F004A58AD /* Exceptions for "luxury-team-test-task" folder in "luxury-team-test-task" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F35004522E2BFE8D004A58AD /* luxury-team-test-task */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F35004552E2BFE8D004A58AD /* luxury-team-test-task */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F35004682E2BFE8F004A58AD /* Exceptions for "luxury-team-test-task" folder in "luxury-team-test-task" target */,
+			);
 			path = "luxury-team-test-task";
 			sourceTree = "<group>";
 		};

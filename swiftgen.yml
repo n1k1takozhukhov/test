@@ -1,0 +1,31 @@
+output_dir: luxury-team-test-task/Generated/
+
+strings:
+  inputs: luxury-team-test-task/Resources/Localizations/en.lproj/Localizable.strings
+  outputs:
+    templateName: structured-swift5
+    output: Strings.swift
+    params:
+      enumName: Strings
+
+xcassets:
+  - inputs: luxury-team-test-task/Resources/Images.xcassets
+    outputs:
+      - templateName: swift5
+        output: Images.swift
+        params:
+          enumName: Images
+  - inputs: luxury-team-test-task/Resources/Colors.xcassets
+    outputs:
+      - templateName: swift5
+        output: Colors.swift
+        params:
+          enumName: Colors
+
+fonts:
+  inputs: luxury-team-test-task/Resources/Fonts
+  outputs:
+    templateName: swift5
+    output: Fonts.swift
+    params:
+      enumName: Fonts
