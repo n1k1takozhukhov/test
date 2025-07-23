@@ -1,0 +1,1 @@
+protocol ListViewModelCoordinatorDelegate: BaseViewModelCoordinatorDelegate {}
